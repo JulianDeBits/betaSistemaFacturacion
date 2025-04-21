@@ -1,133 +1,67 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using SistemaFacturacion.DAL.Entities;
 
-namespace SistemaFacturacion.DAL.DataContext;
-
-public partial class DbSistemaFacturacionContext : DbContext 
+public class DbSistemaFacturacionContext : DbContext
 {
-    public DbSistemaFacturacionContext()
-    {
-    }
-
     public DbSistemaFacturacionContext(DbContextOptions<DbSistemaFacturacionContext> options)
-        : base(options)
-    {
-    }
+        : base(options) { }
 
-    public virtual DbSet<Categoria> Categorias { get; set; }
-
-    public virtual DbSet<Gasto> Gastos { get; set; }
-
-    public virtual DbSet<Moneda> Monedas { get; set; }
-
-    public virtual DbSet<Presupuesto> Presupuestos { get; set; }
-
-    public virtual DbSet<Usuario> Usuarios { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    { 
-    }
+    public DbSet<Usuario> Usuarios { get; set; }
+    public DbSet<Categoria> Categorias { get; set; }
+    public DbSet<Moneda> Monedas { get; set; }
+    public DbSet<Gasto> Gastos { get; set; }
+    public DbSet<Presupuesto> Presupuestos { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Categoria>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__Categori__3214EC07F241079E");
+        // Configurar relaciones y restricciones
 
-            entity.Property(e => e.Descripcion)
-                .HasMaxLength(200)
-                .IsUnicode(false);
-            entity.Property(e => e.Nombre)
-                .HasMaxLength(255)
-                .IsUnicode(false);
-        });
+        // Relaciones de Usuario
+        modelBuilder.Entity<Usuario>()
+            .HasMany(u => u.Gastos) // Un usuario tiene muchos gastos
+            .WithOne(g => g.Usuario) // Un gasto pertenece a un usuario
+            .HasForeignKey(g => g.UsuarioId) // Clave foránea en Gasto
+            .OnDelete(DeleteBehavior.Restrict); // Evitar eliminación en cascada
+        modelBuilder.Entity<Usuario>()
+            .HasMany(u => u.Presupuestos) // Un usuario tiene muchos presupuestos
+            .WithOne(p => p.Usuario) // Un presupuesto pertenece a un usuario
+            .HasForeignKey(p => p.UsuarioId) // Clave foránea en Presupuesto
+            .OnDelete(DeleteBehavior.Restrict); // Evitar eliminación en cascada
 
-        modelBuilder.Entity<Gasto>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__Gastos__3214EC07F5ADF24C");
+        // Relaciones de Categoria
+        modelBuilder.Entity<Categoria>()
+            .HasMany(c => c.Gastos) // Una categoría tiene muchos gastos
+            .WithOne(g => g.Categoria) // Un gasto pertenece a una categoría
+            .HasForeignKey(g => g.CategoriaId) // Clave foránea en Gasto
+            .OnDelete(DeleteBehavior.Restrict); // Evitar eliminación en cascada
+        modelBuilder.Entity<Categoria>()
+            .HasMany(c => c.Presupuestos) // Una categoría tiene muchos presupuestos
+            .WithOne(p => p.Categoria) // Un presupuesto pertenece a una categoría
+            .HasForeignKey(p => p.CategoriaId) // Clave foránea en Presupuesto
+            .OnDelete(DeleteBehavior.Restrict); // Evitar eliminación en cascada
 
-            entity.Property(e => e.Descripcion)
-                .HasMaxLength(300)
-                .IsUnicode(false);
-            entity.Property(e => e.Fecha).HasColumnType("datetime");
-            entity.Property(e => e.Monto).HasColumnType("decimal(10, 2)");
+        // Relaciones de Moneda
+        modelBuilder.Entity<Moneda>()
+            .HasMany(m => m.Gastos) // Una moneda tiene muchos gastos
+            .WithOne(g => g.Moneda) // Un gasto pertenece a una moneda
+            .HasForeignKey(g => g.MonedaId) // Clave foránea en Gasto
+            .OnDelete(DeleteBehavior.Restrict); // Evitar eliminación en cascada
+        modelBuilder.Entity<Moneda>()
+            .HasMany(m => m.Presupuestos) // Una moneda tiene muchos presupuestos
+            .WithOne(p => p.Moneda) // Un presupuesto pertenece a una moneda
+            .HasForeignKey(p => p.MonedaId) // Clave foránea en Presupuesto
+            .OnDelete(DeleteBehavior.Restrict); // Evitar eliminación en cascada
 
-            entity.HasOne(d => d.Categoria).WithMany(p => p.Gastos)
-                .HasForeignKey(d => d.CategoriaId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Gastos__Categori__3E52440B");
+        // Configuraciones adicionales (opcional)
 
-            entity.HasOne(d => d.Moneda).WithMany(p => p.Gastos)
-                .HasForeignKey(d => d.MonedaId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Gastos__MonedaId__3F466844");
-
-            entity.HasOne(d => d.Usuario).WithMany(p => p.Gastos)
-                .HasForeignKey(d => d.UsuarioId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Gastos__UsuarioI__3D5E1FD2");
-        });
-
-        modelBuilder.Entity<Moneda>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__Monedas__3214EC073A5BFD39");
-
-            entity.Property(e => e.Codigo)
-                .HasMaxLength(10)
-                .IsUnicode(false);
-            entity.Property(e => e.Nombre)
-                .HasMaxLength(255)
-                .IsUnicode(false);
-            entity.Property(e => e.Simbolo)
-                .HasMaxLength(5)
-                .IsUnicode(false);
-        });
-
-        modelBuilder.Entity<Presupuesto>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__Presupue__3214EC07D71DE8EC");
-
-            entity.Property(e => e.Id).ValueGeneratedNever();
-            entity.Property(e => e.FechaFin).HasColumnType("datetime");
-            entity.Property(e => e.FechaInicio).HasColumnType("datetime");
-            entity.Property(e => e.Limite).HasColumnType("decimal(10, 2)");
-
-            entity.HasOne(d => d.Categoria).WithMany(p => p.Presupuestos)
-                .HasForeignKey(d => d.CategoriaId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Presupues__Categ__4316F928");
-
-            entity.HasOne(d => d.Moneda).WithMany(p => p.Presupuestos)
-                .HasForeignKey(d => d.MonedaId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Presupues__Moned__440B1D61");
-
-            entity.HasOne(d => d.Usuario).WithMany(p => p.Presupuestos)
-                .HasForeignKey(d => d.UsuarioId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Presupues__Usuar__4222D4EF");
-        });
-
-        modelBuilder.Entity<Usuario>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__Usuarios__3214EC079C74CEFC");
-
-            entity.Property(e => e.Email)
-                .HasMaxLength(100)
-                .IsUnicode(false);
-            entity.Property(e => e.FechaRegistro).HasColumnType("datetime");
-            entity.Property(e => e.Nombre)
-                .HasMaxLength(100)
-                .IsUnicode(false);
-            entity.Property(e => e.PasswordHash)
-                .HasMaxLength(100)
-                .IsUnicode(false);
-        });
-
-        OnModelCreatingPartial(modelBuilder);
+        modelBuilder.Entity<Usuario>()
+            .HasIndex(u => u.Email) // Índice único para el correo electrónico
+            .IsUnique();
+        modelBuilder.Entity<Categoria>()
+            .HasIndex(c => c.Nombre) // Índice único para el nombre de la categoría
+            .IsUnique();
+        modelBuilder.Entity<Moneda>()
+            .HasIndex(m => m.Codigo) // Índice único para el código ISO de la moneda
+            .IsUnique();
     }
-
-    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }

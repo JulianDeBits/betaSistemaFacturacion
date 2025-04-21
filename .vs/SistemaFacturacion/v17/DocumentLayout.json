@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\GatitoPercebe\\Desktop\\ProyectosProgramacion\\SistemaFacturacion\\",
+  "WorkspaceRootPath": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatitopercebe\\desktop\\proyectosprogramacion\\sistemafacturacion\\sistemafacturacion.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.bll\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|solutionrelative:sistemafacturacion.bll\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F71062F8-EE39-40C3-9127-061367DE6CC0}|SistemaFacturacion.DAL\\SistemaFacturacion.DAL.csproj|c:\\users\\gatitopercebe\\desktop\\proyectosprogramacion\\sistemafacturacion\\sistemafacturacion.dal\\datacontext\\dbsistemafacturacioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F71062F8-EE39-40C3-9127-061367DE6CC0}|SistemaFacturacion.DAL\\SistemaFacturacion.DAL.csproj|solutionrelative:sistemafacturacion.dal\\datacontext\\dbsistemafacturacioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F71062F8-EE39-40C3-9127-061367DE6CC0}|SistemaFacturacion.DAL\\SistemaFacturacion.DAL.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.dal\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71062F8-EE39-40C3-9127-061367DE6CC0}|SistemaFacturacion.DAL\\SistemaFacturacion.DAL.csproj|solutionrelative:sistemafacturacion.dal\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatitopercebe\\desktop\\proyectosprogramacion\\sistemafacturacion\\sistemafacturacion.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.bll\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|solutionrelative:sistemafacturacion.bll\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.bll\\services\\presupuestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|solutionrelative:sistemafacturacion.bll\\services\\presupuestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.bll\\services\\gastoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|solutionrelative:sistemafacturacion.bll\\services\\gastoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\GatitoPercebe\\Desktop\\ProyectosProgramacion\\SistemaFacturacion\\SistemaFacturacion.API\\Program.cs",
-              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Program.cs",
-              "ToolTip": "C:\\Users\\GatitoPercebe\\Desktop\\ProyectosProgramacion\\SistemaFacturacion\\SistemaFacturacion.API\\Program.cs",
-              "RelativeToolTip": "SistemaFacturacion.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Interfaces\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.BLL\\Interfaces\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Interfaces\\IUsuarioService.cs",
+              "RelativeToolTip": "SistemaFacturacion.BLL\\Interfaces\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:08:53.947Z",
+              "WhenOpened": "2025-04-21T07:33:52.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DbSistemaFacturacionContext.cs",
-              "DocumentMoniker": "C:\\Users\\GatitoPercebe\\Desktop\\ProyectosProgramacion\\SistemaFacturacion\\SistemaFacturacion.DAL\\DataContext\\DbSistemaFacturacionContext.cs",
-              "RelativeDocumentMoniker": "SistemaFacturacion.DAL\\DataContext\\DbSistemaFacturacionContext.cs",
-              "ToolTip": "C:\\Users\\GatitoPercebe\\Desktop\\ProyectosProgramacion\\SistemaFacturacion\\SistemaFacturacion.DAL\\DataContext\\DbSistemaFacturacionContext.cs",
-              "RelativeToolTip": "SistemaFacturacion.DAL\\DataContext\\DbSistemaFacturacionContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.DAL\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.DAL\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.DAL\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "SistemaFacturacion.DAL\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:00:33.877Z"
+              "WhenOpened": "2025-04-21T07:27:05.139Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\GatitoPercebe\\Desktop\\ProyectosProgramacion\\SistemaFacturacion\\SistemaFacturacion.API\\appsettings.json",
-              "RelativeDocumentMoniker": "SistemaFacturacion.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\GatitoPercebe\\Desktop\\ProyectosProgramacion\\SistemaFacturacion\\SistemaFacturacion.API\\appsettings.json",
-              "RelativeToolTip": "SistemaFacturacion.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-08T02:58:29.132Z"
+              "DocumentIndex": 0,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.BLL\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "SistemaFacturacion.BLL\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:22:39.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PresupuestoService.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Services\\PresupuestoService.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.BLL\\Services\\PresupuestoService.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Services\\PresupuestoService.cs",
+              "RelativeToolTip": "SistemaFacturacion.BLL\\Services\\PresupuestoService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:22:02.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GastoService.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Services\\GastoService.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.BLL\\Services\\GastoService.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Services\\GastoService.cs",
+              "RelativeToolTip": "SistemaFacturacion.BLL\\Services\\GastoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:19:13.222Z",
+              "EditorCaption": ""
             }
           ]
         }

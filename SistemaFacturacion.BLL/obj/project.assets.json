@@ -2814,23 +2814,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GatitoPercebe\\.nuget\\packages\\": {},
+    "C:\\Users\\GatoPercebe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GatitoPercebe\\Desktop\\ProyectosProgramacion\\SistemaFacturacion\\SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj",
+      "projectUniqueName": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj",
       "projectName": "SistemaFacturacion.BLL",
-      "projectPath": "C:\\Users\\GatitoPercebe\\Desktop\\ProyectosProgramacion\\SistemaFacturacion\\SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj",
-      "packagesPath": "C:\\Users\\GatitoPercebe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GatitoPercebe\\Desktop\\ProyectosProgramacion\\SistemaFacturacion\\SistemaFacturacion.BLL\\obj\\",
+      "projectPath": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj",
+      "packagesPath": "C:\\Users\\GatoPercebe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\GatitoPercebe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GatoPercebe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2846,8 +2846,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\GatitoPercebe\\Desktop\\ProyectosProgramacion\\SistemaFacturacion\\SistemaFacturacion.DAL\\SistemaFacturacion.DAL.csproj": {
-              "projectPath": "C:\\Users\\GatitoPercebe\\Desktop\\ProyectosProgramacion\\SistemaFacturacion\\SistemaFacturacion.DAL\\SistemaFacturacion.DAL.csproj"
+            "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.DAL\\SistemaFacturacion.DAL.csproj": {
+              "projectPath": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.DAL\\SistemaFacturacion.DAL.csproj"
             }
           }
         }
@@ -2883,7 +2883,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
