@@ -1,0 +1,11 @@
+C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.BLL\bin\Debug\net8.0\SistemaFacturacion.BLL.deps.json
+C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.BLL\bin\Debug\net8.0\SistemaFacturacion.BLL.dll
+C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.BLL\bin\Debug\net8.0\SistemaFacturacion.BLL.pdb
+C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.BLL\obj\Debug\net8.0\SistemaFacturacion.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.BLL\obj\Debug\net8.0\SistemaFacturacion.BLL.AssemblyInfoInputs.cache
+C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.BLL\obj\Debug\net8.0\SistemaFacturacion.BLL.AssemblyInfo.cs
+C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.BLL\obj\Debug\net8.0\SistemaFacturacion.BLL.csproj.CoreCompileInputs.cache
+C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.BLL\obj\Debug\net8.0\SistemaFacturacion.BLL.dll
+C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.BLL\obj\Debug\net8.0\refint\SistemaFacturacion.BLL.dll
+C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.BLL\obj\Debug\net8.0\SistemaFacturacion.BLL.pdb
+C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.BLL\obj\Debug\net8.0\ref\SistemaFacturacion.BLL.dll
