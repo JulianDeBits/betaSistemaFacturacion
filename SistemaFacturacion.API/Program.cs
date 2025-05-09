@@ -1,4 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using SistemaFacturacion.BLL.Interfaces;
+using SistemaFacturacion.BLL.Services;
+using SistemaFacturacion.DAL.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +10,21 @@ builder.Services.AddDbContext<DbSistemaFacturacionContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("CadenaSQL")));
 
 var app = builder.Build();
+
+builder.Services.AddScoped<UsuarioRepository>();
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+
+builder.Services.AddScoped<GastoRepository>();
+builder.Services.AddScoped<IGastoService, GastoService>();
+
+builder.Services.AddScoped<CategoriaRepository>();
+builder.Services.AddScoped<ICategoriaService, CategoriaService>();
+
+builder.Services.AddScoped<MonedaRepository>();
+builder.Services.AddScoped<IMonedaService, MonedaService>();
+
+builder.Services.AddScoped<PresupuestoRepository>();
+builder.Services.AddScoped<IPresupuestoService, PresupuestoService>();
 
 if (!app.Environment.IsDevelopment())
 {
