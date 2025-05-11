@@ -1,0 +1,30 @@
+﻿@model SistemaFacturacion.DAL.Entities.Moneda
+
+@{
+    ViewData["Title"] = "Eliminar Moneda";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>¿Estás seguro que deseas eliminar esta moneda?</h4>
+
+<dl class="row">
+    <dt class="col-sm-2">ID</dt>
+    <dd class="col-sm-10">@Model.Id</dd>
+
+    <dt class="col-sm-2">Código</dt>
+    <dd class="col-sm-10">@Model.Codigo</dd>
+
+    <dt class="col-sm-2">Nombre</dt>
+    <dd class="col-sm-10">@Model.Nombre</dd>
+
+    <dt class="col-sm-2">Símbolo</dt>
+    <dd class="col-sm-10">@Model.Simbolo</dd>
+</dl>
+
+<form asp-action="Eliminar" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+

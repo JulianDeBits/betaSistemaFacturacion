@@ -1,0 +1,42 @@
+﻿@model IEnumerable<TuProyecto.Data.Entities.Presupuesto>
+
+@{
+    ViewData["Title"] = "Listado de Presupuestos";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<a class="btn btn-primary mb-3" asp-action="Crear">Crear Nuevo Presupuesto</a>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Usuario</th>
+            <th>Categoría</th>
+            <th>Moneda</th>
+            <th>Limite</th>
+            <th>Fecha Inicio</th>
+            <th>Fecha Fin</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Id</td>
+                <td>@p.UsuarioId</td>
+                <td>@p.CategoriaId</td>
+                <td>@p.MonedaId</td>
+                <td>@p.Limite?.ToString("C")</td>
+                <td>@p.FechaInicio?.ToShortDateString()</td>
+                <td>@p.FechaFin?.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@p.Id" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-action="Eliminar" asp-route-id="@p.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

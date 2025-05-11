@@ -13,7 +13,7 @@ public partial class Usuario
 
     public string? PasswordHash { get; set; }
 
-    public DateTime? FechaRegistro { get; set; }
+    public DateTime FechaRegistro { get; set; }
 
     public virtual ICollection<Gasto> Gastos { get; set; } = new List<Gasto>();
 

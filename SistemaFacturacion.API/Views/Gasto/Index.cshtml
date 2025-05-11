@@ -1,0 +1,40 @@
+﻿@model IEnumerable<SistemaFacturacion.DAL.Entities.Gasto>
+
+@{
+    ViewData["Title"] = "Listado de Gastos";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<a asp-action="Crear" class="btn btn-primary mb-3">Agregar Gasto</a>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Presupuesto</th>
+            <th>Categoría</th>
+            <th>Monto</th>
+            <th>Descripción</th>
+            <th>Fecha</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var g in Model)
+        {
+            <tr>
+                <td>@g.Id</td>
+                <td>@g.PresupuestoId</td>
+                <td>@g.CategoriaId</td>
+                <td>@g.Monto.ToString("C")</td>
+                <td>@g.Descripcion</td>
+                <td>@g.Fecha.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@g.Id" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-action="Eliminar" asp-route-id="@g.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

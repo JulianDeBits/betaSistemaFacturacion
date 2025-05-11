@@ -1,0 +1,27 @@
+﻿@model SistemaFacturacion.API.Models.MonedaViewModel
+
+@{
+    ViewData["Title"] = "Agregar Moneda";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Crear" method="post">
+    <div class="form-group">
+        <label asp-for="Codigo"></label>
+        <input asp-for="Codigo" class="form-control" />
+        <span asp-validation-for="Codigo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre" class="form-control" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Simbolo"></label>
+        <input asp-for="Simbolo" class="form-control" />
+        <span asp-validation-for="Simbolo" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<SistemaFacturacion.DAL.Entities.Moneda>
+
+@{
+    ViewData["Title"] = "Listado de Monedas";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<a asp-action="Crear" class="btn btn-primary mb-3">Agregar Moneda</a>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Código</th>
+            <th>Nombre</th>
+            <th>Símbolo</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var moneda in Model)
+        {
+            <tr>
+                <td>@moneda.Id</td>
+                <td>@moneda.Codigo</td>
+                <td>@moneda.Nombre</td>
+                <td>@moneda.Simbolo</td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@moneda.Id" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-action="Eliminar" asp-route-id="@moneda.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

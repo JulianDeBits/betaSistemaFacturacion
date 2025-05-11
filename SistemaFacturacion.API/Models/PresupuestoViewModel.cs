@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace SistemaFacturacion.DAL.Entities;
-
-public partial class Presupuesto
+public class PresupuestoViewModel
 {
     public int Id { get; set; }
 
@@ -19,7 +16,4 @@ public partial class Presupuesto
 
     public DateTime? FechaFin { get; set; }
 
-    public Usuario? Usuario { get; set; }
-    public Categoria? Categoria { get; set; }
-    public Moneda? Moneda { get; set; }
 }

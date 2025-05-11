@@ -1,0 +1,33 @@
+﻿@model TuProyecto.Data.Entities.Presupuesto
+
+@{
+    ViewData["Title"] = "Eliminar Presupuesto";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>¿Estás seguro de que deseas eliminar este presupuesto?</h4>
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">ID</dt>
+        <dd class="col-sm-10">@Model.Id</dd>
+
+        <dt class="col-sm-2">Usuario</dt>
+        <dd class="col-sm-10">@Model.UsuarioId</dd>
+
+        <dt class="col-sm-2">Categoría</dt>
+        <dd class="col-sm-10">@Model.CategoriaId</dd>
+
+        <dt class="col-sm-2">Moneda</dt>
+        <dd class="col-sm-10">@Model.MonedaId</dd>
+
+        <dt class="col-sm-2">Límite</dt>
+        <dd class="col-sm-10">@Model.Limite?.ToString("C")</dd>
+    </dl>
+
+    <form asp-action="Eliminar" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>
