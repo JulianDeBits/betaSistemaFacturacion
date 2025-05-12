@@ -1,6 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-public class GastoViewModel
+namespace SistemaFacturacion.API.Models
+{
+    public class GastoViewModel
 {
     public int Id { get; set; }
 
@@ -14,12 +16,10 @@ public class GastoViewModel
     [Range(0, double.MaxValue)]
     public decimal Monto { get; set; }
 
-
-
-
-
     public string? Descripcion { get; set; }
 
     [Required]
     public DateTime Fecha { get; set; }
 }
+}
+

@@ -32,3 +32,12 @@ C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaF
 C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.API\obj\Debug\net8.0\SistemaFacturacion.API.pdb
 C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.API\obj\Debug\net8.0\SistemaFacturacion.API.genruntimeconfig.cache
 C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.API\obj\Debug\net8.0\ref\SistemaFacturacion.API.dll
+C:\Users\GatoPercebe\Desktop\ProyectosProgramacion\betaSistemaFacturacion\SistemaFacturacion.API\obj\Debug\net8.0\SistemaFacturacion.API.csproj.AssemblyReference.cache
+C:\Users\GatoPercebe\Desktop\ProyectosProgramacion\betaSistemaFacturacion\SistemaFacturacion.API\obj\Debug\net8.0\SistemaFacturacion.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GatoPercebe\Desktop\ProyectosProgramacion\betaSistemaFacturacion\SistemaFacturacion.API\obj\Debug\net8.0\SistemaFacturacion.API.AssemblyInfoInputs.cache
+C:\Users\GatoPercebe\Desktop\ProyectosProgramacion\betaSistemaFacturacion\SistemaFacturacion.API\obj\Debug\net8.0\SistemaFacturacion.API.AssemblyInfo.cs
+C:\Users\GatoPercebe\Desktop\ProyectosProgramacion\betaSistemaFacturacion\SistemaFacturacion.API\obj\Debug\net8.0\SistemaFacturacion.API.csproj.CoreCompileInputs.cache
+C:\Users\GatoPercebe\Desktop\ProyectosProgramacion\betaSistemaFacturacion\SistemaFacturacion.API\obj\Debug\net8.0\SistemaFacturacion.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\GatoPercebe\Desktop\ProyectosProgramacion\betaSistemaFacturacion\SistemaFacturacion.API\obj\Debug\net8.0\SistemaFacturacion.API.RazorAssemblyInfo.cache
+C:\Users\GatoPercebe\Desktop\ProyectosProgramacion\betaSistemaFacturacion\SistemaFacturacion.API\obj\Debug\net8.0\SistemaFacturacion.API.RazorAssemblyInfo.cs
+C:\Users\GatoPercebe\Desktop\ProyectosProgramacion\betaSistemaFacturacion\SistemaFacturacion.API\obj\Debug\net8.0\SistemaFacturacion.API.sourcelink.json
