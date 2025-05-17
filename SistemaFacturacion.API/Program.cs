@@ -5,10 +5,17 @@ using SistemaFacturacion.DAL.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Registrar los servicios antes de llamar a builder.Build()
 builder.Services.AddControllersWithViews();
+
+// Configuración de la base de datos
 builder.Services.AddDbContext<DbSistemaFacturacionContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("CadenaSQL")));
 
+<<<<<<< HEAD
+=======
+// Registrar repositorios y servicios
+>>>>>>> c47cd5a813f94b3f805de65f13a5bf8498ba08ed
 builder.Services.AddScoped<UsuarioRepository>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 
@@ -24,6 +31,10 @@ builder.Services.AddScoped<IMonedaService, MonedaService>();
 builder.Services.AddScoped<PresupuestoRepository>();
 builder.Services.AddScoped<IPresupuestoService, PresupuestoService>();
 
+<<<<<<< HEAD
+=======
+// Después de registrar los servicios, construimos la aplicación
+>>>>>>> c47cd5a813f94b3f805de65f13a5bf8498ba08ed
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())

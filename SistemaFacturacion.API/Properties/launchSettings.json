@@ -9,11 +9,11 @@
     }
   },
   "profiles": {
-    "http": {
+    "SistemaFacturacion": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5229",
+      "applicationUrl": "http://localhost:5100",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
