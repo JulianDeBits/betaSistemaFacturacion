@@ -23,9 +23,10 @@
             <tr>
                 <td>@usuario.Id</td>
                 <td>@usuario.Nombre</td>
-                <td>@usuario.Correo</td>
+                <td>@usuario.Email</td>
                 <td>
                     <a asp-action="Editar" asp-route-id="@usuario.Id" class="btn btn-warning btn-sm">Editar</a>
                     <a asp-action="Eliminar" asp-route-id="@usuario.Id" class="btn btn-danger btn-sm">Eliminar</a>
                 </td>
-            </
+            </tr>
+        }

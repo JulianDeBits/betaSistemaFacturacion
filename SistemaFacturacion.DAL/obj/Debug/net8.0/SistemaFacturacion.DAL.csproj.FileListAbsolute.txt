@@ -27,3 +27,4 @@ C:\Users\GatoPercebe\Desktop\ProyectosProgramacion\betaSistemaFacturacion\Sistem
 C:\Users\GatoPercebe\Desktop\ProyectosProgramacion\betaSistemaFacturacion\SistemaFacturacion.DAL\obj\Debug\net8.0\SistemaFacturacion.DAL.pdb
 C:\Users\GatoPercebe\Desktop\ProyectosProgramacion\betaSistemaFacturacion\SistemaFacturacion.DAL\obj\Debug\net8.0\SistemaFacturacion.DAL.genruntimeconfig.cache
 C:\Users\GatoPercebe\Desktop\ProyectosProgramacion\betaSistemaFacturacion\SistemaFacturacion.DAL\obj\Debug\net8.0\ref\SistemaFacturacion.DAL.dll
+C:\Users\GatitoPercebe\Desktop\ProyectosProgramacion\SistemaFacturacion\SistemaFacturacion.DAL\obj\Debug\net8.0\SistemaFacturacion.DAL.sourcelink.json
