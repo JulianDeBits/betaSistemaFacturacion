@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaFacturacion.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efea1601b57198fa04e6056b8d011fa4ff957240")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+785ef775b489c9229013fc840e78771d2bc15b17")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaFacturacion.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaFacturacion.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

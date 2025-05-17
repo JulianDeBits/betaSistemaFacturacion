@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaFacturacion.BLL.Interfaces;
 using SistemaFacturacion.DAL.Entities;
+using SistemaFacturacion.API.Models;
 
 namespace TuProyecto.API.Controllers
 {

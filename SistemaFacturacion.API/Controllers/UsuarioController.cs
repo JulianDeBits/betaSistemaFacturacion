@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaFacturacion.BLL.Interfaces;
 using SistemaFacturacion.DAL.Entities;
+using SistemaFacturacion.API.Models;
 
 public class UsuarioController : Controller
 {
@@ -23,10 +24,10 @@ public class UsuarioController : Controller
         }));
     }
 
-    public IActionResult Create() => View();
+    public IActionResult Crear() => View();
 
     [HttpPost]
-    public async Task<IActionResult> Create(UsuarioViewModel model)
+    public async Task<IActionResult> Crear(UsuarioViewModel model)
     {
         if (!ModelState.IsValid) return View(model);
 
@@ -71,7 +72,7 @@ public class UsuarioController : Controller
         return RedirectToAction("Index");
     }
 
-    public async Task<IActionResult> Delete(int id)
+    public async Task<IActionResult>Delete(int id)
     {
         var usuario = await _usuarioService.ObtenerPorIdAsync(id);
         if (usuario == null) return NotFound();

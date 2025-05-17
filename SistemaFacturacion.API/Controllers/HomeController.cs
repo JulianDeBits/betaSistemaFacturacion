@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using SistemaFacturacion.API.Models;
 
 namespace SistemaFacturacion.API.Controllers
 {

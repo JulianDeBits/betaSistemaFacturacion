@@ -9,8 +9,6 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DbSistemaFacturacionContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("CadenaSQL")));
 
-var app = builder.Build();
-
 builder.Services.AddScoped<UsuarioRepository>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 
@@ -25,6 +23,8 @@ builder.Services.AddScoped<IMonedaService, MonedaService>();
 
 builder.Services.AddScoped<PresupuestoRepository>();
 builder.Services.AddScoped<IPresupuestoService, PresupuestoService>();
+
+var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
 {
