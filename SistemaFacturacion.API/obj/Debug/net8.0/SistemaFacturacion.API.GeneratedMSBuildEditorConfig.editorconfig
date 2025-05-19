@@ -20,32 +20,32 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Categoria/Crear.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWFyLmNzaHRtbA==
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Categoria/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Categoria/Editar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXRhci5jc2h0bWw=
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Categoria/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Categoria/Eliminar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVsaW1pbmFyLmNzaHRtbA==
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Categoria/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Categoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Gasto/Crear.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9cQ3JlYXIuY3NodG1s
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Gasto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Gasto/Editar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9cRWRpdGFyLmNzaHRtbA==
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Gasto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Gasto/Eliminar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9cRWxpbWluYXIuY3NodG1s
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Gasto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Gasto/Index.cshtml]
@@ -60,32 +60,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Moneda/Crear.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uZWRhXENyZWFyLmNzaHRtbA==
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Moneda/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uZWRhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Moneda/Editar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uZWRhXEVkaXRhci5jc2h0bWw=
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Moneda/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uZWRhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Moneda/Eliminar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uZWRhXEVsaW1pbmFyLmNzaHRtbA==
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Moneda/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uZWRhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Moneda/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uZWRhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Presupuesto/Crear.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3VwdWVzdG9cQ3JlYXIuY3NodG1s
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Presupuesto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3VwdWVzdG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Presupuesto/Editar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3VwdWVzdG9cRWRpdGFyLmNzaHRtbA==
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Presupuesto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3VwdWVzdG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Presupuesto/Eliminar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3VwdWVzdG9cRWxpbWluYXIuY3NodG1s
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Presupuesto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3VwdWVzdG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Presupuesto/Index.cshtml]
@@ -100,16 +100,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Usuario/Crear.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhci5jc2h0bWw=
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Usuario/Editar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0YXIuY3NodG1s
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Usuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Usuario/Eliminar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFbGltaW5hci5jc2h0bWw=
+[C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/GatoPercebe/Desktop/ProyectosProgramacion/betaSistemaFacturacion/SistemaFacturacion.API/Views/Usuario/Index.cshtml]

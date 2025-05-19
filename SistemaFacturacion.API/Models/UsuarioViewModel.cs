@@ -13,6 +13,7 @@ namespace SistemaFacturacion.API.Models
         public string Email { get; set; }
 
         [Required]
+        [Display(Name = "Contraseña")]
         public string PasswordHash { get; set; }
 
         public DateTime FechaRegistro { get; set; }

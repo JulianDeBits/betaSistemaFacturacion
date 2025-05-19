@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaFacturacion.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+785ef775b489c9229013fc840e78771d2bc15b17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+658e5b8a8c2778146589fe4e48990874ba7a0c50")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaFacturacion.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaFacturacion.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

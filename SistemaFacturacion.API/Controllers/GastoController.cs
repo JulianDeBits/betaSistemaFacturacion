@@ -2,30 +2,56 @@
 using SistemaFacturacion.BLL.Interfaces;
 using SistemaFacturacion.DAL.Entities;
 using SistemaFacturacion.API.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Threading.Tasks;
+using System.Linq;
 
 public class GastoController : Controller
 {
     private readonly IGastoService _gastoService;
+    private readonly IUsuarioService _usuarioService;
     private readonly ICategoriaService _categoriaService;
-    private readonly IPresupuestoService _presupuestoService;
+    private readonly IMonedaService _monedaService;
 
-    public GastoController(IGastoService gastoService, ICategoriaService categoriaService, IPresupuestoService presupuestoService)
+    public GastoController(
+        IGastoService gastoService,
+        IUsuarioService usuarioService,
+        ICategoriaService categoriaService,
+        IMonedaService monedaService)
     {
         _gastoService = gastoService;
+        _usuarioService = usuarioService;
         _categoriaService = categoriaService;
-        _presupuestoService = presupuestoService;
+        _monedaService = monedaService;
     }
 
     public async Task<IActionResult> Index()
     {
         var gastos = await _gastoService.ObtenerTodosAsync();
-        return View(gastos);
+        var usuarios = await _usuarioService.ObtenerTodosAsync();
+        var categorias = await _categoriaService.ObtenerTodosAsync();
+        var monedas = await _monedaService.ObtenerTodosAsync();
+
+        var viewModel = gastos.Select(g => new GastoViewModel
+        {
+            Id = g.Id,
+            UsuarioId = g.UsuarioId,
+            UsuarioNombre = usuarios.FirstOrDefault(u => u.Id == g.UsuarioId)?.Nombre,
+            CategoriaId = g.CategoriaId,
+            CategoriaNombre = categorias.FirstOrDefault(c => c.Id == g.CategoriaId)?.Nombre,
+            MonedaId = g.MonedaId,
+            MonedaNombre = monedas.FirstOrDefault(m => m.Id == g.MonedaId)?.Nombre,
+            Monto = g.Monto,
+            Fecha = g.Fecha,
+            Descripcion = g.Descripcion
+        });
+
+        return View(viewModel);
     }
 
     public async Task<IActionResult> Create()
     {
-        ViewBag.Categorias = await _categoriaService.ObtenerTodosAsync();
-        ViewBag.Presupuestos = await _presupuestoService.ObtenerTodosAsync();
+        await CargarListasDesplegables();
         return View();
     }
 
@@ -34,20 +60,21 @@ public class GastoController : Controller
     {
         if (!ModelState.IsValid)
         {
-            ViewBag.Categorias = await _categoriaService.ObtenerTodosAsync();
-            ViewBag.Presupuestos = await _presupuestoService.ObtenerTodosAsync();
+            await CargarListasDesplegables();
             return View(model);
         }
 
-        await _gastoService.AgregarAsync(new Gasto
+        var gasto = new Gasto
         {
-            PresupuestoId = model.PresupuestoId,
+            UsuarioId = model.UsuarioId,
             CategoriaId = model.CategoriaId,
+            MonedaId = model.MonedaId,
             Monto = model.Monto,
-            Descripcion = model.Descripcion,
-            Fecha = model.Fecha
-        });
+            Fecha = model.Fecha,
+            Descripcion = model.Descripcion
+        };
 
+        await _gastoService.AgregarAsync(gasto);
         return RedirectToAction("Index");
     }
 
@@ -56,18 +83,19 @@ public class GastoController : Controller
         var gasto = await _gastoService.ObtenerPorIdAsync(id);
         if (gasto == null) return NotFound();
 
-        ViewBag.Categorias = await _categoriaService.ObtenerTodosAsync();
-        ViewBag.Presupuestos = await _presupuestoService.ObtenerTodosAsync();
-
-        return View(new GastoViewModel
+        var model = new GastoViewModel
         {
             Id = gasto.Id,
-            PresupuestoId = gasto.PresupuestoId,
+            UsuarioId = gasto.UsuarioId,
             CategoriaId = gasto.CategoriaId,
+            MonedaId = gasto.MonedaId,
             Monto = gasto.Monto,
-            Descripcion = gasto.Descripcion,
-            Fecha = gasto.Fecha
-        });
+            Fecha = gasto.Fecha,
+            Descripcion = gasto.Descripcion
+        };
+
+        await CargarListasDesplegables();
+        return View(model);
     }
 
     [HttpPost]
@@ -75,21 +103,22 @@ public class GastoController : Controller
     {
         if (!ModelState.IsValid)
         {
-            ViewBag.Categorias = await _categoriaService.ObtenerTodosAsync();
-            ViewBag.Presupuestos = await _presupuestoService.ObtenerTodosAsync();
+            await CargarListasDesplegables();
             return View(model);
         }
 
-        await _gastoService.ActualizarAsync(new Gasto
+        var gasto = new Gasto
         {
             Id = model.Id,
-            PresupuestoId = model.PresupuestoId,
+            UsuarioId = model.UsuarioId,
             CategoriaId = model.CategoriaId,
+            MonedaId = model.MonedaId,
             Monto = model.Monto,
-            Descripcion = model.Descripcion,
-            Fecha = model.Fecha
-        });
+            Fecha = model.Fecha,
+            Descripcion = model.Descripcion
+        };
 
+        await _gastoService.ActualizarAsync(gasto);
         return RedirectToAction("Index");
     }
 
@@ -97,7 +126,26 @@ public class GastoController : Controller
     {
         var gasto = await _gastoService.ObtenerPorIdAsync(id);
         if (gasto == null) return NotFound();
-        return View(gasto);
+
+        var usuario = await _usuarioService.ObtenerPorIdAsync(gasto.UsuarioId);
+        var categoria = await _categoriaService.ObtenerPorIdAsync(gasto.CategoriaId);
+        var moneda = await _monedaService.ObtenerPorIdAsync(gasto.MonedaId);
+
+        var model = new GastoViewModel
+        {
+            Id = gasto.Id,
+            UsuarioId = gasto.UsuarioId,
+            UsuarioNombre = usuario?.Nombre,
+            CategoriaId = gasto.CategoriaId,
+            CategoriaNombre = categoria?.Nombre,
+            MonedaId = gasto.MonedaId,
+            MonedaNombre = moneda?.Nombre,
+            Monto = gasto.Monto,
+            Fecha = gasto.Fecha,
+            Descripcion = gasto.Descripcion
+        };
+
+        return View(model);
     }
 
     [HttpPost, ActionName("Delete")]
@@ -105,5 +153,16 @@ public class GastoController : Controller
     {
         await _gastoService.EliminarAsync(id);
         return RedirectToAction("Index");
+    }
+
+    private async Task CargarListasDesplegables()
+    {
+        var usuarios = await _usuarioService.ObtenerTodosAsync();
+        var categorias = await _categoriaService.ObtenerTodosAsync();
+        var monedas = await _monedaService.ObtenerTodosAsync();
+
+        ViewBag.Usuarios = new SelectList(usuarios, "Id", "Nombre");
+        ViewBag.Categorias = new SelectList(categorias, "Id", "Nombre");
+        ViewBag.Monedas = new SelectList(monedas, "Id", "Nombre");
     }
 }

@@ -40,18 +40,21 @@ namespace SistemaFacturacion.DAL.Repositorios
         public virtual async Task AddAsync(TEntity entity)
         {
             await _dbSet.AddAsync(entity);
+            await _context.SaveChangesAsync();
         }
 
         // Actualizar un registro existente
-        public virtual void Update(TEntity entity)
+        public virtual async Task Update(TEntity entity)
         {
             _dbSet.Update(entity);
+            await _context.SaveChangesAsync(); // Aquí se persisten los cambios
         }
 
         // Eliminar un registro
-        public virtual void Delete(TEntity entity)
+        public virtual async Task Delete(TEntity entity)
         {
             _dbSet.Remove(entity);
+            await _context.SaveChangesAsync(); // Aquí también
         }
 
         // Verificar si existe un registro según una condición

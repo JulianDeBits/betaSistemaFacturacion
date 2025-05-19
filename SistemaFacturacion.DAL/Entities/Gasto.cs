@@ -9,8 +9,6 @@ public partial class Gasto
 
     public int UsuarioId { get; set; }
 
-    public int PresupuestoId { get; set; }
-
     public int CategoriaId { get; set; }
 
     public int MonedaId { get; set; }
