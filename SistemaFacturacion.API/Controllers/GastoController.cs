@@ -66,9 +66,9 @@ public class GastoController : Controller
 
         var gasto = new Gasto
         {
-            UsuarioId = model.UsuarioId,
-            CategoriaId = model.CategoriaId,
-            MonedaId = model.MonedaId,
+            UsuarioId = model.UsuarioId.Value,
+            CategoriaId = model.CategoriaId.Value,
+            MonedaId = model.MonedaId.Value,
             Monto = model.Monto,
             Fecha = model.Fecha,
             Descripcion = model.Descripcion
@@ -99,8 +99,16 @@ public class GastoController : Controller
     }
 
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(GastoViewModel model)
     {
+        Console.WriteLine("Post Edit ejecutado");
+
+        foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+        {
+            Console.WriteLine(error.ErrorMessage);
+        }
+
         if (!ModelState.IsValid)
         {
             await CargarListasDesplegables();
@@ -110,9 +118,9 @@ public class GastoController : Controller
         var gasto = new Gasto
         {
             Id = model.Id,
-            UsuarioId = model.UsuarioId,
-            CategoriaId = model.CategoriaId,
-            MonedaId = model.MonedaId,
+            UsuarioId = model.UsuarioId.Value,
+            CategoriaId = model.CategoriaId.Value,
+            MonedaId = model.MonedaId.Value,
             Monto = model.Monto,
             Fecha = model.Fecha,
             Descripcion = model.Descripcion

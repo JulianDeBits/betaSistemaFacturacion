@@ -24,12 +24,11 @@ public class UsuarioController : Controller
         }));
     }
 
-    public IActionResult Crete() => View();
+    public IActionResult Create() => View();
 
     [HttpPost]
     public async Task<IActionResult> Create(UsuarioViewModel model)
     {
-        Console.WriteLine("Entro a Crear POST");
 
         if (!ModelState.IsValid) return View(model);
 

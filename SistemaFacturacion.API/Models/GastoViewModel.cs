@@ -9,21 +9,21 @@ namespace SistemaFacturacion.API.Models
 
         [Required(ErrorMessage = "El usuario es obligatorio.")]
         [Display(Name = "Usuario")]
-        public int UsuarioId { get; set; }
+        public int? UsuarioId { get; set; }
 
         [Display(Name = "Usuario")]
         public string UsuarioNombre { get; set; }
 
         [Required(ErrorMessage = "La categoría es obligatoria.")]
         [Display(Name = "Categoría")]
-        public int CategoriaId { get; set; }
+        public int? CategoriaId { get; set; }
 
         [Display(Name = "Categoría")]
         public string CategoriaNombre { get; set; }
 
         [Required(ErrorMessage = "La moneda es obligatoria.")]
         [Display(Name = "Moneda")]
-        public int MonedaId { get; set; }
+        public int? MonedaId { get; set; }
 
         [Display(Name = "Moneda")]
         public string MonedaNombre { get; set; }
