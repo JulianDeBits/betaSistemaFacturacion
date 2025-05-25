@@ -7,11 +7,11 @@ namespace SistemaFacturacion.DAL.Repositories
     public class UsuarioRepository : GenericRepository<Usuario>
     {
 
-        private readonly DbSistemaFacturacionContext _context;  // Renombrado para claridad
+        private readonly DbSistemaFacturacionContext _context;  
 
         public UsuarioRepository(DbSistemaFacturacionContext context) : base(context)
         {
-            _context = context;
+            
         }
 
         public async Task<Usuario> GetByEmailAsync(string email)

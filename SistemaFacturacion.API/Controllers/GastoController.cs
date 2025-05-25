@@ -51,22 +51,26 @@ public class GastoController : Controller
 
     public async Task<IActionResult> Create()
     {
-        await CargarListasDesplegables();
-        return View();
+        var model = new GastoViewModel(); 
+        await CargarListasDesplegables(model);
+        return View(model); 
     }
 
+
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(GastoViewModel model)
     {
         if (!ModelState.IsValid)
         {
-            await CargarListasDesplegables();
+            await CargarListasDesplegables(model);
             return View(model);
         }
 
         var gasto = new Gasto
         {
-            UsuarioId = model.UsuarioId.Value,
+            Id = model.Id,
+            UsuarioId = model.UsuarioId.Value,     
             CategoriaId = model.CategoriaId.Value,
             MonedaId = model.MonedaId.Value,
             Monto = model.Monto,
@@ -94,7 +98,7 @@ public class GastoController : Controller
             Descripcion = gasto.Descripcion
         };
 
-        await CargarListasDesplegables();
+        await CargarListasDesplegables(model);
         return View(model);
     }
 
@@ -102,16 +106,42 @@ public class GastoController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(GastoViewModel model)
     {
-        Console.WriteLine("Post Edit ejecutado");
+        // 🔥 Ignora los campos que no vienen del formulario
+        ModelState.Remove("UsuarioNombre");
+        ModelState.Remove("CategoriaNombre");
+        ModelState.Remove("MonedaNombre");
 
-        foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+        Console.WriteLine("------ Errores de ModelState ------");
+        foreach (var kvp in ModelState)
         {
-            Console.WriteLine(error.ErrorMessage);
+            var field = kvp.Key;
+            var state = kvp.Value;
+
+            if (state.Errors.Any())
+            {
+                Console.WriteLine($"Campo: {field}");
+                foreach (var error in state.Errors)
+                {
+                    Console.WriteLine($"  ➤ Error: {error.ErrorMessage}");
+                }
+            }
         }
+
+        // Validación de existencia
+        var usuarioExiste = await _usuarioService.ObtenerPorIdAsync(model.UsuarioId ?? 0) != null;
+        var categoriaExiste = await _categoriaService.ObtenerPorIdAsync(model.CategoriaId ?? 0) != null;
+        var monedaExiste = await _monedaService.ObtenerPorIdAsync(model.MonedaId ?? 0) != null;
+
+        if (!usuarioExiste)
+            ModelState.AddModelError("UsuarioId", "El usuario seleccionado no existe.");
+        if (!categoriaExiste)
+            ModelState.AddModelError("CategoriaId", "La categoría seleccionada no existe.");
+        if (!monedaExiste)
+            ModelState.AddModelError("MonedaId", "La moneda seleccionada no existe.");
 
         if (!ModelState.IsValid)
         {
-            await CargarListasDesplegables();
+            await CargarListasDesplegables(model);
             return View(model);
         }
 
@@ -126,9 +156,20 @@ public class GastoController : Controller
             Descripcion = model.Descripcion
         };
 
-        await _gastoService.ActualizarAsync(gasto);
+        try
+        {
+            await _gastoService.ActualizarAsync(gasto);
+        }
+        catch (Exception ex)
+        {
+            ModelState.AddModelError(string.Empty, $"Ocurrió un error al actualizar el gasto: {ex.Message}");
+            await CargarListasDesplegables(model);
+            return View(model);
+        }
+
         return RedirectToAction("Index");
     }
+
 
     public async Task<IActionResult> Delete(int id)
     {
@@ -163,14 +204,14 @@ public class GastoController : Controller
         return RedirectToAction("Index");
     }
 
-    private async Task CargarListasDesplegables()
+    private async Task CargarListasDesplegables(GastoViewModel model)
     {
         var usuarios = await _usuarioService.ObtenerTodosAsync();
         var categorias = await _categoriaService.ObtenerTodosAsync();
         var monedas = await _monedaService.ObtenerTodosAsync();
 
-        ViewBag.Usuarios = new SelectList(usuarios, "Id", "Nombre");
-        ViewBag.Categorias = new SelectList(categorias, "Id", "Nombre");
-        ViewBag.Monedas = new SelectList(monedas, "Id", "Nombre");
+        ViewBag.Usuarios = new SelectList(usuarios, "Id", "Nombre", model?.UsuarioId);
+        ViewBag.Categorias = new SelectList(categorias, "Id", "Nombre", model?.CategoriaId);
+        ViewBag.Monedas = new SelectList(monedas, "Id", "Nombre", model?.MonedaId);
     }
 }

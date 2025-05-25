@@ -41,7 +41,7 @@ namespace SistemaFacturacion.BLL.Services
 
         public async Task ActualizarAsync(Usuario usuario)
         {
-            _usuarioRepository.Update(usuario);
+            await _usuarioRepository.Update(usuario);
         }
 
         public async Task EliminarAsync(int id)
@@ -49,7 +49,7 @@ namespace SistemaFacturacion.BLL.Services
             var usuario = await _usuarioRepository.GetByIdAsync(id);
             if (usuario != null)
             {
-                _usuarioRepository.Delete(usuario);
+                await _usuarioRepository.Delete(usuario);
             }
         }
 

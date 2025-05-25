@@ -12,21 +12,21 @@ namespace SistemaFacturacion.API.Models
         public int? UsuarioId { get; set; }
 
         [Display(Name = "Usuario")]
-        public string UsuarioNombre { get; set; }
+        public string? UsuarioNombre { get; set; }
 
         [Required(ErrorMessage = "La categoría es obligatoria.")]
         [Display(Name = "Categoría")]
         public int? CategoriaId { get; set; }
 
         [Display(Name = "Categoría")]
-        public string CategoriaNombre { get; set; }
+        public string? CategoriaNombre { get; set; }
 
         [Required(ErrorMessage = "La moneda es obligatoria.")]
         [Display(Name = "Moneda")]
         public int? MonedaId { get; set; }
 
         [Display(Name = "Moneda")]
-        public string MonedaNombre { get; set; }
+        public string? MonedaNombre { get; set; }
 
         [Required(ErrorMessage = "El monto es obligatorio.")]
         [Range(0.01, 1000000, ErrorMessage = "El monto debe ser mayor a 0.")]

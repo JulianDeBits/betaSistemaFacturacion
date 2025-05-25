@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace SistemaFacturacion.API.Models
 {
@@ -6,18 +7,17 @@ namespace SistemaFacturacion.API.Models
     {
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "El nombre es obligatorio.")]
         public string Nombre { get; set; }
 
-        [Required, EmailAddress]
+        [Required(ErrorMessage = "El email es obligatorio.")]
+        [EmailAddress(ErrorMessage = "Debe ingresar un email válido.")]
         public string Email { get; set; }
 
-        [Required]
         [Display(Name = "Contraseña")]
-        public string PasswordHash { get; set; }
+        [DataType(DataType.Password)]
+        public string Password { get; set; }
 
         public DateTime FechaRegistro { get; set; }
     }
 }
-
-

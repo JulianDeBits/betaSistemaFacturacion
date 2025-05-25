@@ -6,18 +6,40 @@
 
 <h2>@ViewData["Title"]</h2>
 
-<form asp-action="Editar" method="post">
+<form asp-action="Edit" method="post" autocomplete="off">
     <input type="hidden" asp-for="Id" />
+
     <div class="form-group">
         <label asp-for="Nombre"></label>
         <input asp-for="Nombre" class="form-control" />
         <span asp-validation-for="Nombre" class="text-danger"></span>
     </div>
-    <div class="form-group">
+
+    <div class="form-group mb-4">
         <label asp-for="Email"></label>
         <input asp-for="Email" class="form-control" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
-    <button type="submit" class="btn btn-primary">Actualizar</button>
+
+    <div class="form-group mb-4">
+        <button type="button" class="btn btn-warning" onclick="mostrarCampoContrasena()">Cambiar contraseña</button>
+    </div>
+
+    <div class="form-group mb-4" id="passwordContainer" style="display: none;">
+        <label asp-for="Password" class="form-label"></label>
+        <input asp-for="Password" type="password" class="form-control" autocomplete="new-password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
     <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
 </form>
+
+@section Scripts {
+    <script>
+        function mostrarCampoContrasena() {
+            const contenedor = document.getElementById('passwordContainer');
+            contenedor.style.display = 'block';
+        }
+    </script>
+}
