@@ -11,4 +11,8 @@
     <ProjectReference Include="..\SistemaFacturacion.DAL\SistemaFacturacion.DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
 </Project>

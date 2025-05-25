@@ -40,7 +40,7 @@ namespace SistemaFacturacion.BLL.Services
 
         public async Task ActualizarAsync(Presupuesto presupuesto)
         {
-            _presupuestoRepository.Update(presupuesto);
+            await _presupuestoRepository.Update(presupuesto);
         }
 
         public async Task EliminarAsync(int id)
@@ -48,7 +48,7 @@ namespace SistemaFacturacion.BLL.Services
             var presupuesto = await _presupuestoRepository.GetByIdAsync(id);
             if (presupuesto != null)
             {
-                _presupuestoRepository.Delete(presupuesto);
+                await _presupuestoRepository.Delete(presupuesto);
             }
         }
     }

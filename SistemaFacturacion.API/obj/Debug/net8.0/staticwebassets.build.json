@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jLEI6u+vJnnvjWiCm5xby3/sswEyKEDH95bNngeenQU=",
+  "Hash": "e6aA3azpxkmmuQtb9Su4K007uIysGdWzyqeJi6rwlgQ=",
   "Source": "SistemaFacturacion.API",
   "BasePath": "_content/SistemaFacturacion.API",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\wwwroot\\Images\\Dev.jpeg",
+      "SourceId": "SistemaFacturacion.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\wwwroot\\",
+      "BasePath": "_content/SistemaFacturacion.API",
+      "RelativePath": "Images/Dev#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oou04rl7zy",
+      "Integrity": "WHsRx54SNAAXvMVZUDrBOH1LRmE2S2pPnKO7kiW2x1k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Dev.jpeg"
     },
     {
       "Identity": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\wwwroot\\js\\site.js",
@@ -1481,6 +1502,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Dev.jpeg",
+      "AssetFile": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\wwwroot\\Images\\Dev.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WHsRx54SNAAXvMVZUDrBOH1LRmE2S2pPnKO7kiW2x1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 03:55:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WHsRx54SNAAXvMVZUDrBOH1LRmE2S2pPnKO7kiW2x1k="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Dev.oou04rl7zy.jpeg",
+      "AssetFile": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\wwwroot\\Images\\Dev.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WHsRx54SNAAXvMVZUDrBOH1LRmE2S2pPnKO7kiW2x1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 03:55:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oou04rl7zy"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Dev.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WHsRx54SNAAXvMVZUDrBOH1LRmE2S2pPnKO7kiW2x1k="
         }
       ]
     },

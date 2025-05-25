@@ -19,7 +19,9 @@ public partial class Presupuesto
 
     public DateTime? FechaFin { get; set; }
 
-    public Usuario? Usuario { get; set; }
-    public Categoria? Categoria { get; set; }
-    public Moneda? Moneda { get; set; }
+    public virtual Categoria Categoria { get; set; } = null!;
+
+    public virtual Moneda Moneda { get; set; } = null!;
+
+    public virtual Usuario Usuario { get; set; } = null!;
 }

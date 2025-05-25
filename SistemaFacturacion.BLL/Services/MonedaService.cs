@@ -35,7 +35,7 @@ namespace SistemaFacturacion.BLL.Services
 
         public async Task ActualizarAsync(Moneda moneda)
         {
-            _monedaRepository.Update(moneda);
+            await _monedaRepository.Update(moneda);
         }
 
         public async Task EliminarAsync(int id)
@@ -43,7 +43,7 @@ namespace SistemaFacturacion.BLL.Services
             var moneda = await _monedaRepository.GetByIdAsync(id);
             if (moneda != null)
             {
-                _monedaRepository.Delete(moneda);
+                await _monedaRepository.Delete(moneda);
             }
         }
     }

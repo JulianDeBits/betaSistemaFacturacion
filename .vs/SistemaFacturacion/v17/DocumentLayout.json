@@ -1,7 +1,188 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.bll\\services\\monedaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|solutionrelative:sistemafacturacion.bll\\services\\monedaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.bll\\services\\gastoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|solutionrelative:sistemafacturacion.bll\\services\\gastoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.bll\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5FBB59B-DC0E-4C3F-B3EC-2A057B621613}|SistemaFacturacion.BLL\\SistemaFacturacion.BLL.csproj|solutionrelative:sistemafacturacion.bll\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\usuario\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\usuario\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\usuario\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\usuario\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\usuario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\usuario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\presupuesto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\presupuesto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\presupuesto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\presupuesto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\presupuesto\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\presupuesto\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\presupuesto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\presupuesto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\moneda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\moneda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\moneda\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\moneda\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\moneda\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\moneda\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\moneda\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\moneda\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\gasto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\gasto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\gasto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\gasto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\gasto\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\gasto\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\gasto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\gasto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\categoria\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\categoria\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\categoria\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\categoria\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\views\\categoria\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\views\\categoria\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\models\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\models\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\models\\presupuestoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\models\\presupuestoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\models\\monedaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\models\\monedaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\models\\gastoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\models\\gastoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\models\\categoriaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\models\\categoriaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\controllers\\presupuestocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\controllers\\presupuestocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\controllers\\monedacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\controllers\\monedacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\controllers\\gastocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\controllers\\gastocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|c:\\users\\gatopercebe\\desktop\\proyectosprogramacion\\betasistemafacturacion\\sistemafacturacion.api\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8D2AD520-1B36-483F-A0E7-DB56FF06B2C7}|SistemaFacturacion.API\\SistemaFacturacion.API.csproj|solutionrelative:sistemafacturacion.api\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +190,594 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": []
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MonedaService.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Services\\MonedaService.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.BLL\\Services\\MonedaService.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Services\\MonedaService.cs",
+              "RelativeToolTip": "SistemaFacturacion.BLL\\Services\\MonedaService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:31:33.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GastoService.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Services\\GastoService.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.BLL\\Services\\GastoService.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Services\\GastoService.cs",
+              "RelativeToolTip": "SistemaFacturacion.BLL\\Services\\GastoService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:31:32.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.BLL\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.BLL\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "SistemaFacturacion.BLL\\Services\\CategoriaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:31:31.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Program.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Program.cs",
+              "RelativeToolTip": "SistemaFacturacion.API\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:31:26.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:21.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:20.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:19.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Usuario\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Usuario\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Usuario\\Edit.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Usuario\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:18.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Usuario\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Usuario\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Usuario\\Delete.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Usuario\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:17.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Usuario\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Usuario\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Usuario\\Create.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Usuario\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:17.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:13.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:11.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Presupuesto\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Presupuesto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Presupuesto\\Index.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Presupuesto\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:08.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Presupuesto\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Presupuesto\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Presupuesto\\Edit.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Presupuesto\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:08.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Presupuesto\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Presupuesto\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Presupuesto\\Delete.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Presupuesto\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:07.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Presupuesto\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Presupuesto\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Presupuesto\\Create.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Presupuesto\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:06.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Moneda\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Moneda\\Index.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Moneda\\Index.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Moneda\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:03.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Moneda\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Moneda\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Moneda\\Edit.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Moneda\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:02.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Moneda\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Moneda\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Moneda\\Delete.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Moneda\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:01.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Moneda\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Moneda\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Moneda\\Create.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Moneda\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:31:00.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:30:57.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Gasto\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Gasto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Gasto\\Index.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Gasto\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:30:53.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Gasto\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Gasto\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Gasto\\Edit.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Gasto\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:30:52.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Gasto\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Gasto\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Gasto\\Delete.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Gasto\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:30:51.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:11:01.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Gasto\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Gasto\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Gasto\\Create.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Gasto\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:30:50.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Categoria\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Categoria\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Categoria\\Edit.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Categoria\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:30:48.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Categoria\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Categoria\\Index.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Categoria\\Index.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Categoria\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:30:47.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Categoria\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Categoria\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Categoria\\Delete.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Categoria\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:30:46.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Categoria\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Categoria\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Categoria\\Create.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Categoria\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:30:45.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UsuarioViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Models\\UsuarioViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Models\\UsuarioViewModel.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Models\\UsuarioViewModel.cs",
+              "RelativeToolTip": "SistemaFacturacion.API\\Models\\UsuarioViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:30:41.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PresupuestoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Models\\PresupuestoViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Models\\PresupuestoViewModel.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Models\\PresupuestoViewModel.cs",
+              "RelativeToolTip": "SistemaFacturacion.API\\Models\\PresupuestoViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:30:39.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MonedaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Models\\MonedaViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Models\\MonedaViewModel.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Models\\MonedaViewModel.cs",
+              "RelativeToolTip": "SistemaFacturacion.API\\Models\\MonedaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:30:37.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SistemaFacturacion.API\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T04:11:49.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GastoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Models\\GastoViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Models\\GastoViewModel.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Models\\GastoViewModel.cs",
+              "RelativeToolTip": "SistemaFacturacion.API\\Models\\GastoViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:30:35.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "SistemaFacturacion.API\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:30:34.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CategoriaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Models\\CategoriaViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Models\\CategoriaViewModel.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Models\\CategoriaViewModel.cs",
+              "RelativeToolTip": "SistemaFacturacion.API\\Models\\CategoriaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:30:32.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "SistemaFacturacion.API\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAuwGUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:29:28.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PresupuestoController.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Controllers\\PresupuestoController.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Controllers\\PresupuestoController.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Controllers\\PresupuestoController.cs",
+              "RelativeToolTip": "SistemaFacturacion.API\\Controllers\\PresupuestoController.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAuwHUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:29:05.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MonedaController.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Controllers\\MonedaController.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Controllers\\MonedaController.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Controllers\\MonedaController.cs",
+              "RelativeToolTip": "SistemaFacturacion.API\\Controllers\\MonedaController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:28:59.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SistemaFacturacion.API\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:28:56.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GastoController.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Controllers\\GastoController.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Controllers\\GastoController.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Controllers\\GastoController.cs",
+              "RelativeToolTip": "SistemaFacturacion.API\\Controllers\\GastoController.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAuwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:28:17.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "SistemaFacturacion.API\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:28:14.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SistemaFacturacion.API\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-25T04:18:12.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "SistemaFacturacion.API\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\GatoPercebe\\Desktop\\ProyectosProgramacion\\betaSistemaFacturacion\\SistemaFacturacion.API\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "SistemaFacturacion.API\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-25T04:15:18.101Z",
+              "EditorCaption": ""
+            }
+          ]
         }
       ]
     }

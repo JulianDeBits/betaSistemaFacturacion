@@ -63,5 +63,13 @@ public class DbSistemaFacturacionContext : DbContext
         modelBuilder.Entity<Moneda>()
             .HasIndex(m => m.Codigo) // Índice único para el código ISO de la moneda
             .IsUnique();
+
+        modelBuilder.Entity<Presupuesto>()
+            .HasKey(p => p.Id);
+
+        modelBuilder.Entity<Presupuesto>()
+            .Property(p => p.Id)
+            .ValueGeneratedOnAdd(); // importante: así se le indica que la base lo genera
+
     }
 }

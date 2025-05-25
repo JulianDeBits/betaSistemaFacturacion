@@ -35,8 +35,8 @@ namespace SistemaFacturacion.BLL.Services
 
         public async Task ActualizarAsync(Categoria categoria)
         {
-            _categoriaRepository.Update(categoria);
-            await Task.CompletedTask; // para cumplir con la firma async si no se guarda aquí
+            await _categoriaRepository.Update(categoria);
+            await Task.CompletedTask;
         }
 
         public async Task EliminarAsync(int id)
@@ -44,7 +44,7 @@ namespace SistemaFacturacion.BLL.Services
             var categoria = await _categoriaRepository.GetByIdAsync(id);
             if (categoria != null)
             {
-                _categoriaRepository.Delete(categoria);
+                await _categoriaRepository.Delete(categoria);
             }
         }
     }

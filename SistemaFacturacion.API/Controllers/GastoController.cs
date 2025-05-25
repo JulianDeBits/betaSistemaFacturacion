@@ -106,12 +106,10 @@ public class GastoController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(GastoViewModel model)
     {
-        // 🔥 Ignora los campos que no vienen del formulario
         ModelState.Remove("UsuarioNombre");
         ModelState.Remove("CategoriaNombre");
         ModelState.Remove("MonedaNombre");
 
-        Console.WriteLine("------ Errores de ModelState ------");
         foreach (var kvp in ModelState)
         {
             var field = kvp.Key;
@@ -127,17 +125,10 @@ public class GastoController : Controller
             }
         }
 
-        // Validación de existencia
         var usuarioExiste = await _usuarioService.ObtenerPorIdAsync(model.UsuarioId ?? 0) != null;
         var categoriaExiste = await _categoriaService.ObtenerPorIdAsync(model.CategoriaId ?? 0) != null;
         var monedaExiste = await _monedaService.ObtenerPorIdAsync(model.MonedaId ?? 0) != null;
 
-        if (!usuarioExiste)
-            ModelState.AddModelError("UsuarioId", "El usuario seleccionado no existe.");
-        if (!categoriaExiste)
-            ModelState.AddModelError("CategoriaId", "La categoría seleccionada no existe.");
-        if (!monedaExiste)
-            ModelState.AddModelError("MonedaId", "La moneda seleccionada no existe.");
 
         if (!ModelState.IsValid)
         {

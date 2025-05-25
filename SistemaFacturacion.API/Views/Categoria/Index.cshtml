@@ -6,13 +6,14 @@
 
 <h2>@ViewData["Title"]</h2>
 
-<a asp-action="Crear" class="btn btn-primary mb-3">Agregar Categoría</a>
+<a asp-action="Create" class="btn btn-primary mb-3">Agregar Categoría</a>
 
 <table class="table table-bordered table-striped">
     <thead>
         <tr>
             <th>ID</th>
             <th>Nombre</th>
+			<th>Descripción</th>
             <th>Acciones</th>
         </tr>
     </thead>
@@ -22,9 +23,10 @@
             <tr>
                 <td>@c.Id</td>
                 <td>@c.Nombre</td>
+				<td>@c.Descripcion</td>
                 <td>
-                    <a asp-action="Editar" asp-route-id="@c.Id" class="btn btn-warning btn-sm">Editar</a>
-                    <a asp-action="Eliminar" asp-route-id="@c.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                    <a asp-action="Edit" asp-route-id="@c.Id" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@c.Id" class="btn btn-danger btn-sm">Eliminar</a>
                 </td>
             </tr>
         }

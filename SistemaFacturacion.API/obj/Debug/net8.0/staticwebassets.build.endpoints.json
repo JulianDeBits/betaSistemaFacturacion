@@ -3,6 +3,88 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "Images/Dev.jpeg",
+      "AssetFile": "Images/Dev.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WHsRx54SNAAXvMVZUDrBOH1LRmE2S2pPnKO7kiW2x1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 03:55:29 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WHsRx54SNAAXvMVZUDrBOH1LRmE2S2pPnKO7kiW2x1k="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Dev.oou04rl7zy.jpeg",
+      "AssetFile": "Images/Dev.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WHsRx54SNAAXvMVZUDrBOH1LRmE2S2pPnKO7kiW2x1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 03:55:29 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oou04rl7zy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WHsRx54SNAAXvMVZUDrBOH1LRmE2S2pPnKO7kiW2x1k="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Dev.jpeg"
+        }
+      ]
+    },
+    {
       "Route": "SistemaFacturacion.API.ci57fi6gfl.styles.css",
       "AssetFile": "SistemaFacturacion.API.styles.css",
       "Selectors": [],

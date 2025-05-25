@@ -85,7 +85,6 @@ public class UsuarioController : Controller
 
         if (!ModelState.IsValid)
         {
-            Console.WriteLine("❌ ModelState no válido:");
             foreach (var kvp in ModelState)
             {
                 foreach (var error in kvp.Value.Errors)
@@ -99,10 +98,8 @@ public class UsuarioController : Controller
         var usuario = await _usuarioService.ObtenerPorIdAsync(model.Id);
         if (usuario == null)
         {
-            Console.WriteLine($"❌ No se encontró el usuario con ID {model.Id}");
             return NotFound();
         }
-        Console.WriteLine($"✅ Usuario encontrado en DB con ID: {usuario.Id}");
 
         usuario.Nombre = model.Nombre;
         usuario.Email = model.Email;

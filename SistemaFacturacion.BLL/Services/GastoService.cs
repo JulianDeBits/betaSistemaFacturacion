@@ -36,14 +36,14 @@ namespace SistemaFacturacion.BLL.Services
         }
         public async Task ActualizarAsync(Gasto gasto)
         {
-            _gastoRepository.Update(gasto);
+            await _gastoRepository.Update(gasto);
         }
         public async Task EliminarAsync(int id)
         {
             var gasto = await _gastoRepository.GetByIdAsync(id);
             if (gasto != null)
             {
-                _gastoRepository.Delete(gasto);
+               await _gastoRepository.Delete(gasto);
             }
         }
     }
