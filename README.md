@@ -51,11 +51,11 @@ Monedas: Soporte para diferentes tipos de moneda (USD, EUR, MXN, etc.).
 
 Cada entidad cuenta con su propio conjunto de vistas Razor para las operaciones CRUD (Crear, Leer (Index), Actualizar y Eliminar).
 
-📁 Estructura del Proyecto
+# 📁 Estructura del Proyecto
+
+```text
 SistemaFacturacion.APP/ – Capa de Interfaces
-pgsql
-Copiar
-Editar
+
 Controllers/
 ├── UsuariosController.cs
 ├── PresupuestosController.cs
@@ -88,9 +88,11 @@ wwwroot/
 
 Program.cs  
 Appsettings.json
+```
+
+```text
 SistemaFacturacion.BLL/ – Capa de Negocio
-Copiar
-Editar
+
 Interfaces/
 ├── ICategoriaService.cs
 ├── IUsuarioService.cs
@@ -104,9 +106,11 @@ Services/
 ├── MonedaService.cs
 ├── GastoService.cs
 └── PresupuestoService.cs
+```
+
+```text
 SistemaFacturacion.DAL/ – Capa de Datos
-Copiar
-Editar
+
 DataContext/
 └── SistemaFacturacionContext.cs
 
@@ -124,3 +128,5 @@ Repositories/
 ├── GastoRepository.cs
 ├── PresupuestoRepository.cs
 └── GenericRepository.cs
+```
+
