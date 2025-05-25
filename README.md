@@ -1,116 +1,127 @@
-🚀 Cómo Empezar
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>README - Sistema Facturación</title>
+</head>
+<body>
 
-🔧 Prerrequisitos
-Antes de comenzar, asegúrate de tener lo siguiente instalado en tu máquina:
+    <h1>🚀 Cómo Empezar</h1>
 
-.NET 8 SDK o superior
-SQL Server 
-Visual Studio 2022 con soporte para ASP.NET y EF Core
-Git
+    <h2>🔧 Prerrequisitos</h2>
+    <p>Antes de comenzar, asegúrate de tener lo siguiente instalado en tu máquina:</p>
+    <ul>
+        <li>.NET 8 SDK o superior</li>
+        <li>SQL Server</li>
+        <li>Visual Studio 2022 con soporte para ASP.NET y EF Core</li>
+        <li>Git</li>
+    </ul>
 
-🛠 Instalación
-Clona el repositorio:
+    <h2>🛠 Instalación</h2>
+    <ol>
+        <li>Clona el repositorio:<br>
+            <code>git clone https://github.com/JuliandeBits/betaSistemaFacturacion.git</code>
+        </li>
+        <li>Restaura las dependencias del proyecto:<br>
+            <code>dotnet restore</code>
+        </li>
+        <li>Aplica las migraciones y crea la base de datos:<br>
+            <code>dotnet ef database update</code><br>
+            Ejecuta también el script contenido en <strong>ScriptSistemaFacturacion</strong>.
+        </li>
+        <li>Ejecuta la aplicación:<br>
+            <code>dotnet run</code>
+        </li>
+        <li>Accede desde tu navegador a:<br>
+            <a href="https://localhost:5229">https://localhost:5229</a>
+        </li>
+    </ol>
 
-git clone https://github.com/JuliandeBits/betaSistemaFacturacion.git
+    <h2>⚙️ Funcionalidades</h2>
+    <ul>
+        <li><strong>Usuarios:</strong> Registro y gestión de usuarios.</li>
+        <li><strong>Presupuestos:</strong> Creación, edición y eliminación de presupuestos en determinado tiempo.</li>
+        <li><strong>Gastos:</strong> Registro detallado de gastos asociados a presupuestos y categorías.</li>
+        <li><strong>Categorías:</strong> Organización de los gastos por tipo (comida, transporte, ocio, etc.).</li>
+        <li><strong>Monedas:</strong> Soporte para diferentes tipos de moneda (USD, EUR, MXN, etc.).</li>
+    </ul>
+    <p>Cada entidad cuenta con su propio conjunto de vistas Razor para las operaciones CRUD (Crear, Leer <em>(Index)</em>, Actualizar y Eliminar).</p>
 
-Restaura las dependencias del proyecto:
-dotnet restore
-Aplica las migraciones y crea la base de datos:
+    <h2>📁 Estructura del Proyecto</h2>
 
-dotnet ef database update
-ejecutar el script contenido en ScriptSistemaFacturacion
+    <h3>SistemaFacturacion.APP - Capa de Interfaces</h3>
+    <pre>
+Controllers/
+├── UsuariosController.cs
+├── PresupuestosController.cs
+├── GastosController.cs
+├── CategoriasController.cs
+└── MonedasController.cs
 
-Ejecuta la aplicación:
-dotnet run
-Accede en tu navegador a: https://localhost:5229
+Models/
+├── UsuarioViewModel.cs
+├── PresupuestoViewModel.cs
+├── GastoViewModel.cs
+├── CategoriaViewModel.cs
+└── MonedaViewModel.cs
 
-⚙️ Funcionalidades
-Usuarios: Registro y gestión de usuarios.
-Presupuestos: Creación, edición y eliminación de presupuestos en determinado tiempo.
-Gastos: Registro detallado de gastos asociados a presupuestos y categorías.
-Categorías: Organización de los gastos por tipo (comida, transporte, ocio, etc.).
-Monedas: Soporte para diferentes tipos de moneda (USD, EUR, MXN, etc.).
+Views/
+├── Usuarios/
+│   ├── Create.cshtml
+│   ├── Edit.cshtml
+│   ├── Delete.cshtml
+│   ├── Index.cshtml
+├── Presupuestos/
+├── Gastos/
+├── Categorias/
+└── Monedas/
 
-Cada entidad cuenta con su propio conjunto de vistas Razor para las operaciones CRUD (Crear, Leer (Index), Actualizar y Eliminar).
+wwwroot/
+├── Css/
+├── Images/
+└── lib/
 
-📁 Estructura del Proyecto
+Program.cs
+Appsettings.json
+    </pre>
 
-SistemaFacturacion.APP/ -> Capa de Interfaces
-│
-├── Controllers/               # Controladores MVC para cada entidad
-│   ├── UsuariosController.cs
-│   ├── PresupuestosController.cs
-│   ├── GastosController.cs
-│   ├── CategoriasController.cs
-│   └── MonedasController.cs
-│
-├── Models/                    # Modelos de datos (Entidades EF)
-│   ├── UsuarioViewModel.cs
-│   ├── PresupuestoViewModel.cs
-│   ├── GastoViewModel.cs
-│   ├── CategoriaViewModel.cs
-│   └── MonedaViewModel.cs
-│
-├── Views/                     # Vistas Razor por entidad
-│   ├── Usuarios/
-|                ├── Create.cshmtl
-|                ├── Edit.cshtml
-|                ├── Delete.cshtml
-|                ├── Index.cshtml
-│   ├── Presupuestos/
-│   ├── Gastos/
-│   ├── Categorias/
-│   └── Monedas/
-│
-├── www.root/
-|   ├── Css/
-│   ├── Images/
-│   ├── lib/
-|
-|
-├── Program.cs
-├── Appsettings.json
-|
-|
-|
-|
-SistemaFacturacion.BLL/ -> Capa de Negocio
-|
-├── Interfaces/                                        Cada entidad tiene su respectiva interfaz
-│   └── ICategoriaService.cs
-|   └── IUsuarioService.cs
-|   └── IMonedaService.cs
-|   └── IGastoService.cs
-|   └── IPresupuestoService.cs
-│
-├── Services/                                          Cada entidad tiene su respectivo Servicio
-│   └── CategoriaService.cs
-|   └── UsuarioService.cs
-|   └── MonedaService.cs
-|   └── GastoService.cs
-|   └── PresupuestoService.cs
-|
-|
-|
-|
-SistemaFacturacion.DAL/ -> Capa de Datos
-|
-|
-├── DataContext/                                  
-│   └── SistemaFacturacionContext.cs              Contexto de la Aplicicación
-|
-|
-├── Entities/                                      Cada Entidad Declarada
-│   └── Categoria.cs
-|   └── Usuario.cs
-|   └── Gasto.cs
-|   └── Presupuesto.cs
-|   └── Moneda.cs
-│
-├── Repositories/                                   Cada entidad tiene su respectivo Repositorio
-│   └── UsuarioRepository.cs
-|   └── CategoriaRepository.cs
-|   └── MonedaRepository.cs
-|   └── GastoRepository.cs
-|   └── PresupuestoRepository.cs
-|   └── GenericRepository.cs
+    <h3>SistemaFacturacion.BLL - Capa de Negocio</h3>
+    <pre>
+Interfaces/
+├── ICategoriaService.cs
+├── IUsuarioService.cs
+├── IMonedaService.cs
+├── IGastoService.cs
+└── IPresupuestoService.cs
+
+Services/
+├── CategoriaService.cs
+├── UsuarioService.cs
+├── MonedaService.cs
+├── GastoService.cs
+└── PresupuestoService.cs
+    </pre>
+
+    <h3>SistemaFacturacion.DAL - Capa de Datos</h3>
+    <pre>
+DataContext/
+└── SistemaFacturacionContext.cs
+
+Entities/
+├── Categoria.cs
+├── Usuario.cs
+├── Gasto.cs
+├── Presupuesto.cs
+└── Moneda.cs
+
+Repositories/
+├── UsuarioRepository.cs
+├── CategoriaRepository.cs
+├── MonedaRepository.cs
+├── GastoRepository.cs
+├── PresupuestoRepository.cs
+└── GenericRepository.cs
+    </pre>
+
+</body>
+</html>
