@@ -1,56 +1,61 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>README - Sistema Facturación</title>
-</head>
-<body>
+# 🚀 Cómo Empezar
 
-    <h1>🚀 Cómo Empezar</h1>
+## 🔧 Prerrequisitos
 
-    <h2>🔧 Prerrequisitos</h2>
-    <p>Antes de comenzar, asegúrate de tener lo siguiente instalado en tu máquina:</p>
-    <ul>
-        <li>.NET 8 SDK o superior</li>
-        <li>SQL Server</li>
-        <li>Visual Studio 2022 con soporte para ASP.NET y EF Core</li>
-        <li>Git</li>
-    </ul>
+Antes de comenzar, asegúrate de tener lo siguiente instalado en tu máquina:
 
-    <h2>🛠 Instalación</h2>
-    <ol>
-        <li>Clona el repositorio:<br>
-            <code>git clone https://github.com/JuliandeBits/betaSistemaFacturacion.git</code>
-        </li>
-        <li>Restaura las dependencias del proyecto:<br>
-            <code>dotnet restore</code>
-        </li>
-        <li>Aplica las migraciones y crea la base de datos:<br>
-            <code>dotnet ef database update</code><br>
-            Ejecuta también el script contenido en <strong>ScriptSistemaFacturacion</strong>.
-        </li>
-        <li>Ejecuta la aplicación:<br>
-            <code>dotnet run</code>
-        </li>
-        <li>Accede desde tu navegador a:<br>
-            <a href="https://localhost:5229">https://localhost:5229</a>
-        </li>
-    </ol>
+- .NET 8 SDK o superior  
+- SQL Server  
+- Visual Studio 2022 con soporte para ASP.NET y EF Core  
+- Git  
 
-    <h2>⚙️ Funcionalidades</h2>
-    <ul>
-        <li><strong>Usuarios:</strong> Registro y gestión de usuarios.</li>
-        <li><strong>Presupuestos:</strong> Creación, edición y eliminación de presupuestos en determinado tiempo.</li>
-        <li><strong>Gastos:</strong> Registro detallado de gastos asociados a presupuestos y categorías.</li>
-        <li><strong>Categorías:</strong> Organización de los gastos por tipo (comida, transporte, ocio, etc.).</li>
-        <li><strong>Monedas:</strong> Soporte para diferentes tipos de moneda (USD, EUR, MXN, etc.).</li>
-    </ul>
-    <p>Cada entidad cuenta con su propio conjunto de vistas Razor para las operaciones CRUD (Crear, Leer <em>(Index)</em>, Actualizar y Eliminar).</p>
+## 🛠 Instalación
 
-    <h2>📁 Estructura del Proyecto</h2>
+1. Clona el repositorio:
 
-    <h3>SistemaFacturacion.APP - Capa de Interfaces</h3>
-    <pre>
+   ```bash
+   git clone https://github.com/JuliandeBits/betaSistemaFacturacion.git
+Restaura las dependencias del proyecto:
+
+bash
+Copiar
+Editar
+dotnet restore
+Aplica las migraciones y crea la base de datos:
+
+bash
+Copiar
+Editar
+dotnet ef database update
+También debes ejecutar el script contenido en ScriptSistemaFacturacion.
+
+Ejecuta la aplicación:
+
+bash
+Copiar
+Editar
+dotnet run
+Abre en tu navegador:
+https://localhost:5229
+
+⚙️ Funcionalidades
+Usuarios: Registro y gestión de usuarios.
+
+Presupuestos: Creación, edición y eliminación de presupuestos en determinado tiempo.
+
+Gastos: Registro detallado de gastos asociados a presupuestos y categorías.
+
+Categorías: Organización de los gastos por tipo (comida, transporte, ocio, etc.).
+
+Monedas: Soporte para diferentes tipos de moneda (USD, EUR, MXN, etc.).
+
+Cada entidad cuenta con su propio conjunto de vistas Razor para las operaciones CRUD (Crear, Leer (Index), Actualizar y Eliminar).
+
+📁 Estructura del Proyecto
+SistemaFacturacion.APP/ – Capa de Interfaces
+pgsql
+Copiar
+Editar
 Controllers/
 ├── UsuariosController.cs
 ├── PresupuestosController.cs
@@ -70,7 +75,7 @@ Views/
 │   ├── Create.cshtml
 │   ├── Edit.cshtml
 │   ├── Delete.cshtml
-│   ├── Index.cshtml
+│   └── Index.cshtml
 ├── Presupuestos/
 ├── Gastos/
 ├── Categorias/
@@ -81,12 +86,11 @@ wwwroot/
 ├── Images/
 └── lib/
 
-Program.cs
+Program.cs  
 Appsettings.json
-    </pre>
-
-    <h3>SistemaFacturacion.BLL - Capa de Negocio</h3>
-    <pre>
+SistemaFacturacion.BLL/ – Capa de Negocio
+Copiar
+Editar
 Interfaces/
 ├── ICategoriaService.cs
 ├── IUsuarioService.cs
@@ -100,10 +104,9 @@ Services/
 ├── MonedaService.cs
 ├── GastoService.cs
 └── PresupuestoService.cs
-    </pre>
-
-    <h3>SistemaFacturacion.DAL - Capa de Datos</h3>
-    <pre>
+SistemaFacturacion.DAL/ – Capa de Datos
+Copiar
+Editar
 DataContext/
 └── SistemaFacturacionContext.cs
 
@@ -121,7 +124,3 @@ Repositories/
 ├── GastoRepository.cs
 ├── PresupuestoRepository.cs
 └── GenericRepository.cs
-    </pre>
-
-</body>
-</html>
